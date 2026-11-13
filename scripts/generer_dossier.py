@@ -30,7 +30,7 @@ Rédige ensuite le corps du texte avec au moins deux sections numérotées, du v
 
 print("Interrogation de Gemini pour la rédaction du dossier...")
 response = client.models.generate_content(
-    model="gemini-2.5-flash",
+    model="gemini-3.8-flash",
     contents=prompt,
 )
 
