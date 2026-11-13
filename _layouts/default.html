@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/layout.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
     <header>
@@ -14,12 +14,19 @@
             <a href="{{ '/' | relative_url }}">Archives & Dossiers</a>
             <a href="{{ '/a-propos' | relative_url }}">Ligne éditoriale</a>
         </nav>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Rechercher dans les archives (ex: ballast, audit...)" aria-label="Rechercher un dossier">
+        </div>
     </header>
     <main>
-        {{ content }}
+        <div id="search-results"></div>
+        <div id="main-feed">
+            {{ content }}
+        </div>
     </main>
     <footer>
         Rédaction centrale • Paris — Tous droits de reproduction et d'investigation réservés.
     </footer>
+    <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
 </body>
 </html>

@@ -117,3 +117,30 @@ footer {
     color: var(--muted-color);
     font-style: italic;
 }
+
+/* Barre de recherche institutionnelle */
+.search-box {
+    margin-top: 25px;
+}
+
+#search-input {
+    width: 100%;
+    max-width: 420px;
+    padding: 10px 14px;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 0.95em;
+    color: var(--text-color);
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+#search-input:focus {
+    border-color: var(--accent-color);
+}
+
+#search-results {
+    display: none;
+    margin-bottom: 40px;
+}
