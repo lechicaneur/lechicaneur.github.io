@@ -144,3 +144,32 @@ footer {
     display: none;
     margin-bottom: 40px;
 }
+
+/* --- Identité visuelle : Logo Tampon dans le Header --- */
+.brand-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 8px;
+}
+
+.site-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 50%;
+    /* Petite rotation optionnelle pour renforcer l'effet tampon appliqué à la volée */
+    transform: rotate(-4deg);
+    transition: transform 0.3s ease;
+}
+
+.site-logo:hover {
+    transform: rotate(0deg) scale(1.05);
+}
+
+/* Ajustement pour que le titre reste bien aligné avec le logo */
+header h1 {
+    display: inline-block;
+    margin: 0;
+}

@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/layout.css' | relative_url }}">
 </head>
 <body>
-    <header>
-        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-        <p class="tagline">{{ site.description }}</p>
+<header class="site-header-container">
+        <div class="brand-wrapper">
+            <a href="{{ '/' | relative_url }}" class="logo-link">
+                <img src="{{ '/assets/images/favicon.png' | relative_url }}" alt="Le Chicaneur Logo" class="site-logo">
+            </a>
+            <div class="brand-text">
+                <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+                <p class="tagline">{{ site.description }}</p>
+            </div>
+        </div>
         <nav>
             <a href="{{ '/' | relative_url }}">Archives & Dossiers</a>
             <a href="{{ '/a-propos' | relative_url }}">Ligne éditoriale</a>
