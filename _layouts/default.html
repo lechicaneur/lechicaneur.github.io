@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+    
+    <!-- Génère titre, meta description, canonical, Open Graph, Twitter Cards et JSON-LD -->
+    {% seo %}
+    
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/layout.css' | relative_url }}">
 </head>
 <body>
     <header class="site-header-container">
         <div class="brand-wrapper">
             <a href="{{ '/' | relative_url }}" class="logo-link">
-                <img src="{{ '/assets/images/favicon.png' | relative_url }}" alt="Le Chicaneur Logo" class="site-logo">
+                <img src="{{ '/assets/images/favicon.png' | relative_url }}" alt="{{ site.title }}" class="site-logo" width="40" height="40">
             </a>
             <div class="brand-text">
-                <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+                {% if page.url == "/" %}
+                    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+                {% else %}
+                    <p class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+                {% endif %}
             </div>
         </div>
         <p class="tagline">{{ site.description }}</p>
-        <nav>
+        <nav aria-label="Navigation principale">
             <a href="{{ '/' | relative_url }}">Archives & Dossiers</a>
             <a href="{{ '/a-propos' | relative_url }}">Ligne éditoriale</a>
         </nav>
@@ -35,6 +42,6 @@
     <footer>
         Rédaction centrale • Paris — Tous droits de reproduction et d'investigation réservés.
     </footer>
-    <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/search.js' | relative_url }}" defer></script>
 </body>
 </html>
