@@ -2,5 +2,13 @@ title: Le Chicaneur
 description: Journal d'investigation, de prospective logistique et d'observation méthodique du réel.
 baseurl: ""
 url: "https://lechicaneur.github.io"
+lang: fr_FR
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
+
+# Image par défaut pour les partages (Open Graph / X) si un article n'a pas sa propre image
+logo: /assets/images/favicon.png
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
