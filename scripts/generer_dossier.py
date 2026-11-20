@@ -14,10 +14,11 @@ Tu es le rédacteur en chef du Chicaneur, un organe clandestin d'investigation, 
 Rédige un article complet au format Markdown pour un nouveau dossier d'investigation inédit. 
 Invente un sujet du quotidien apparemment banal et révèle sa véritable nature subversive (évite de toujours reprendre les mêmes exemples).
 
-L'article doit impérativement commencer par la structure Front Matter suivante, en remplaçant uniquement la valeur entre crochets par un titre original et percutant (ne recopie surtout pas l'instruction) :
+L'article doit impérativement commencer par la structure Front Matter suivante, en remplaçant uniquement les valeurs entre crochets par un titre et une description originaux, percutants et conformes à l'identité du journal (ne recopie surtout pas les instructions, et évite les guillemets doubles non échappés à l'intérieur des chaînes) :
 ---
 layout: post
 title: "[INVENTE ICI UN TITRE ORIGINAL, ALARMISTE, TECHNIQUE ET HAUTEMENT CONFIDENTIEL SUR LE SUJET CHOISI]"
+description: "[RÉDIGE ICI UN RÉSUMÉ CONCIS, ACCROCHEUR ET BUREAUCRATIQUEMENT INQUIÉTANT DE 140 À 160 CARACTÈRES POUR LE SEO ET LES APERÇUS]"
 date: {aujourd_hui}
 author: "La Rédaction • Cellule de Veille Occulte"
 category: "Prospective & Complots du Réel"
