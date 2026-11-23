@@ -55,7 +55,8 @@ header.site-header-container {
     transform: rotate(0deg) scale(1.05);
 }
 
-.brand-text h1 {
+.brand-text h1,
+.brand-text .site-title {
     font-size: 2.6em;
     margin: 0;
     letter-spacing: 1px;
@@ -63,7 +64,8 @@ header.site-header-container {
     line-height: 1.1;
 }
 
-.brand-text h1 a {
+.brand-text h1 a,
+.brand-text .site-title a {
     text-decoration: none;
     color: var(--accent-color);
 }
