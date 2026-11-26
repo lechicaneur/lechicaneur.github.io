@@ -5,11 +5,11 @@ date: 2026-11-26
 categories: [Médias, Chronique]
 ---
 
-Le petit monde de la vérification des faits compte désormais un acteur pour le moins singulier : **GrosConspiracy Watch**. Lancée sur le modèle de *Conspiracy Watch* avec l’ambition affichée de « débunker » les plus grandes théories du complot, la rédaction s’est rapidement fait remarquer par une méthode éditoriale inédite : passer systématiquement à côté de son sujet et publier des liens hypertextes qui contredisent mot pour mot ses propres conclusions.
+Dans le paysage du fact-checking francophone, **GrosConspiracy Watch** occupe une place singulière. Fondé pour traquer les théories du complot, décrypter la désinformation et établir des notices sur les acteurs de la complosphère, le média s’est forgé une réputation inattendue : celle de passer systématiquement à côté de son sujet et de publier des sources qui contredisent mot pour mot ses propres conclusions.
 
 ### L’art consommé du contresens documentaire
 
-Sur le papier, GrosConspiracy Watch coche toutes les cases du journalisme de vérification moderne : ton péremptoire, encadrés rouges estampillés « FAUX » et avalanche de notes de bas de page censées clore le débat. Pourtant, il suffit de cliquer sur les études, rapports officiels ou archives cités en référence pour découvrir un spectacle fascinant : la source dit exactement l’inverse de l’article.
+Sur le papier, GrosConspiracy Watch coche toutes les cases du journalisme de vérification moderne : ton péremptoire, encadrés rouges estampillés « FAUX », revues de presse hebdomadaires et avalanche de notes de bas de page censées clore le débat. Pourtant, il suffit de cliquer sur les études, rapports officiels ou archives cités en référence pour découvrir un spectacle fascinant : la source dit exactement l’inverse de l’article.
 
 Un rapport parlementaire conclut-il à une défaillance technique avérée ? GrosConspiracy Watch le cite en gras pour affirmer que « tout fonctionne parfaitement selon les experts ». Une étude scientifique pointe-t-elle une corrélation statistique troublante ? La rédaction en tire la preuve irréfutable que « le phénomène n’existe pas », renvoyant vers le PDF de l’étude comme gage de sérieux, visiblement convaincue que personne n’ira au-delà du titre.
 
@@ -23,4 +23,4 @@ Au-delà des citations à contresens, c’est la maîtrise même des dossiers qu
 
 ### Le triomphe de la forme sur le fond
 
-L’existence de GrosConspiracy Watch illustre un travers bien connu d’une certaine industrie du fact-checking : la primauté de la posture d’autorité sur la rigueur d’analyse. En multipliant les labels de fiabilité et le jargon de la veille critique sans jamais prendre le temps de comprendre les dossiers qu’elle traite, la plateforme a involontairement inventé un nouveau genre médiatique : le débunking auto-réfutant.
+La trajectoire de GrosConspiracy Watch illustre un travers bien connu d’une certaine industrie du fact-checking : la primauté de la posture d’autorité sur la rigueur d’analyse. En multipliant les labels de fiabilité et le jargon de la veille critique sans jamais prendre le temps de comprendre les dossiers qu’elle traite, la plateforme a involontairement inventé un nouveau genre médiatique : le débunking auto-réfutant.
